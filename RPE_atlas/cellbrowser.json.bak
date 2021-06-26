@@ -1,0 +1,34 @@
+{
+  "name": "RPE_atlas",
+  "shortLabel": "RPE_atlas",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "defColorField": "CellType_predict",
+  "labelField": "CellType_predict",
+  "enumFields": [
+    "CellType_predict"
+  ],
+  "coords": [
+    {
+      "file": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/RPEImportScanpy/scvi_coords.tsv",
+      "shortLabel": "scvi"
+    },
+    {
+      "file": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/RPEImportScanpy/scviumap_coords.tsv",
+      "shortLabel": "scviumap"
+    },
+    {
+      "file": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/RPEImportScanpy/umap_coords.tsv",
+      "shortLabel": "UMAP"
+    }
+  ],
+  "markers": [
+    {
+      "file": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/RPEImportScanpy/markers.tsv",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenesFile": "quickGenes.tsv",
+  "inDir": ""
+}
