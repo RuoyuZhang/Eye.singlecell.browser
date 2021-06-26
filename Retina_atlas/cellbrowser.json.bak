@@ -11,14 +11,6 @@
   ],
   "coords": [
     {
-      "file": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/RetinaImportScanpy/scvi_coords.tsv",
-      "shortLabel": "scvi"
-    },
-    {
-      "file": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/RetinaImportScanpy/scviumap_coords.tsv",
-      "shortLabel": "scviumap"
-    },
-    {
       "file": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/RetinaImportScanpy/umap_coords.tsv",
       "shortLabel": "UMAP"
     }
