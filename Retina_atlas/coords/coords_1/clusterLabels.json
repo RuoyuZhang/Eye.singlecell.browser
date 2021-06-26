@@ -1,0 +1,84 @@
+{
+  "labels": [
+    [
+      13214.434782608696,
+      45758.708439897695,
+      "RPE"
+    ],
+    [
+      23557.3,
+      50124.16285714286,
+      "Muller Glia"
+    ],
+    [
+      59534.77142857143,
+      38461.41428571429,
+      "Bipolar Cells"
+    ],
+    [
+      42356.94857142857,
+      58494.51285714286,
+      "Rods"
+    ],
+    [
+      15133.305714285714,
+      41846.05,
+      "Astrocytes"
+    ],
+    [
+      41438.374285714286,
+      40767.49857142857,
+      "Cones"
+    ],
+    [
+      53896.70428571429,
+      17775.38857142857,
+      "Amacrine Cells"
+    ],
+    [
+      53905.06428571429,
+      26338.12285714286,
+      "Horizontal Cells"
+    ],
+    [
+      40154.212857142855,
+      12360.55,
+      "Retinal Ganglion Cells"
+    ],
+    [
+      36821.13857142857,
+      28595.71857142857,
+      "Neurogenic Cells"
+    ],
+    [
+      29885.075714285715,
+      30870.395714285714,
+      "RPCs"
+    ],
+    [
+      45376.08142857143,
+      28202.342857142856,
+      "AC/HC_Precurs"
+    ],
+    [
+      43425.717142857146,
+      36751.23428571429,
+      "Photoreceptor Precursors"
+    ]
+  ],
+  "order": [
+    "RPE",
+    "Astrocytes",
+    "Muller Glia",
+    "Cones",
+    "Photoreceptor Precursors",
+    "AC/HC_Precurs",
+    "Neurogenic Cells",
+    "RPCs",
+    "Retinal Ganglion Cells",
+    "Amacrine Cells",
+    "Horizontal Cells",
+    "Bipolar Cells",
+    "Rods"
+  ]
+}

@@ -11,6 +11,15 @@
         "datasetDesc"
       ],
       "sampleCount": 7381
+    },
+    {
+      "shortLabel": "Retina_atlas",
+      "name": "Retina_atlas",
+      "md5": "c5db4993fd",
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 12559
     }
   ]
 }
