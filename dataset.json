@@ -20,6 +20,15 @@
         "datasetDesc"
       ],
       "sampleCount": 12559
+    },
+    {
+      "shortLabel": "GTEX",
+      "name": "GTEX",
+      "md5": "28acc45a31",
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 5165
     }
   ]
 }

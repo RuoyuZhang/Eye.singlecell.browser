@@ -1,0 +1,792 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/GTEXImportScanpy/meta.tsv",
+      "md5": "78a6561f17",
+      "size": 262494,
+      "mtime": "2021-07-05 06:48:13"
+    },
+    "outMeta": {
+      "fname": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/cb/GTEX/meta.tsv",
+      "md5": "d7675ab50b",
+      "size": 252153,
+      "mtime": "2021-07-05 06:52:09"
+    },
+    "inMatrix": {
+      "fname": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/GTEXImportScanpy/exprMatrix.tsv.gz",
+      "md5": "5bce3dcf72",
+      "size": 57675690,
+      "mtime": "2021-07-05 06:47:00"
+    },
+    "outMatrix": {
+      "fname": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/cb/GTEX/exprMatrix.tsv.gz",
+      "md5": "5bce3dcf72",
+      "size": 57675690,
+      "mtime": "2021-07-05 06:52:09"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "eab8ef9ce9",
+      "size": 2614,
+      "mtime": "2021-07-05 06:48:13"
+    },
+    "conf": {
+      "fname": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/GTEXImportScanpy/cellbrowser.conf",
+      "md5": "d18eb4e2a3",
+      "size": 849,
+      "mtime": "2021-07-05 06:48:13"
+    }
+  },
+  "sampleCount": 5165,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "cellId",
+      "label": "cellId",
+      "type": "uniqueString",
+      "maxSize": 29,
+      "diffValCount": 5165,
+      "md5": "d2672537e2"
+    },
+    {
+      "name": "SMTS",
+      "label": "SMTS",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Adipose Tissue",
+          200
+        ],
+        [
+          "Muscle",
+          200
+        ],
+        [
+          "Blood Vessel",
+          200
+        ],
+        [
+          "Heart",
+          200
+        ],
+        [
+          "Breast",
+          200
+        ],
+        [
+          "Skin",
+          200
+        ],
+        [
+          "Brain",
+          200
+        ],
+        [
+          "Adrenal Gland",
+          200
+        ],
+        [
+          "Thyroid",
+          200
+        ],
+        [
+          "Lung",
+          200
+        ],
+        [
+          "Spleen",
+          200
+        ],
+        [
+          "Pancreas",
+          200
+        ],
+        [
+          "Esophagus",
+          200
+        ],
+        [
+          "Stomach",
+          200
+        ],
+        [
+          "Colon",
+          200
+        ],
+        [
+          "Prostate",
+          200
+        ],
+        [
+          "Testis",
+          200
+        ],
+        [
+          "Nerve",
+          200
+        ],
+        [
+          "Blood",
+          200
+        ],
+        [
+          "Pituitary",
+          200
+        ],
+        [
+          "Liver",
+          200
+        ],
+        [
+          "Small Intestine",
+          187
+        ],
+        [
+          "Ovary",
+          180
+        ],
+        [
+          "Salivary Gland",
+          162
+        ],
+        [
+          "Vagina",
+          156
+        ],
+        [
+          "Uterus",
+          142
+        ],
+        [
+          "Kidney",
+          89
+        ],
+        [
+          "Bladder",
+          21
+        ],
+        [
+          "Cervix Uteri",
+          19
+        ],
+        [
+          "Fallopian Tube",
+          9
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 30,
+      "md5": "d1c3a7b695"
+    },
+    {
+      "name": "SMTSD",
+      "label": "SMTSD",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Muscle - Skeletal",
+          200
+        ],
+        [
+          "Breast - Mammary Tissue",
+          200
+        ],
+        [
+          "Adrenal Gland",
+          200
+        ],
+        [
+          "Thyroid",
+          200
+        ],
+        [
+          "Lung",
+          200
+        ],
+        [
+          "Spleen",
+          200
+        ],
+        [
+          "Pancreas",
+          200
+        ],
+        [
+          "Stomach",
+          200
+        ],
+        [
+          "Prostate",
+          200
+        ],
+        [
+          "Testis",
+          200
+        ],
+        [
+          "Nerve - Tibial",
+          200
+        ],
+        [
+          "Pituitary",
+          200
+        ],
+        [
+          "Liver",
+          200
+        ],
+        [
+          "Small Intestine - Terminal Ileum",
+          187
+        ],
+        [
+          "Ovary",
+          180
+        ],
+        [
+          "Minor Salivary Gland",
+          162
+        ],
+        [
+          "Whole Blood",
+          157
+        ],
+        [
+          "Vagina",
+          156
+        ],
+        [
+          "Uterus",
+          142
+        ],
+        [
+          "Adipose - Subcutaneous",
+          112
+        ],
+        [
+          "Artery - Tibial",
+          107
+        ],
+        [
+          "Heart - Atrial Appendage",
+          103
+        ],
+        [
+          "Colon - Transverse",
+          102
+        ],
+        [
+          "Colon - Sigmoid",
+          98
+        ],
+        [
+          "Heart - Left Ventricle",
+          97
+        ],
+        [
+          "Adipose - Visceral (Omentum)",
+          88
+        ],
+        [
+          "Kidney - Cortex",
+          85
+        ],
+        [
+          "Skin - Sun Exposed (Lower leg)",
+          77
+        ],
+        [
+          "Skin - Not Sun Exposed (Suprapubic)",
+          72
+        ],
+        [
+          "Esophagus - Muscularis",
+          72
+        ],
+        [
+          "Esophagus - Mucosa",
+          70
+        ],
+        [
+          "Esophagus - Gastroesophageal Junction",
+          58
+        ],
+        [
+          "Artery - Aorta",
+          55
+        ],
+        [
+          "Cells - Cultured fibroblasts",
+          51
+        ],
+        [
+          "Cells - EBV-transformed lymphocytes",
+          43
+        ],
+        [
+          "Artery - Coronary",
+          38
+        ],
+        [
+          "Brain - Cerebellar Hemisphere",
+          25
+        ],
+        [
+          "Brain - Caudate (basal ganglia)",
+          22
+        ],
+        [
+          "Brain - Nucleus accumbens (basal ganglia)",
+          21
+        ],
+        [
+          "Bladder",
+          21
+        ],
+        [
+          "Brain - Hippocampus",
+          18
+        ],
+        [
+          "Brain - Cerebellum",
+          17
+        ],
+        [
+          "Brain - Frontal Cortex (BA9)",
+          17
+        ],
+        [
+          "Brain - Cortex",
+          16
+        ],
+        [
+          "Brain - Putamen (basal ganglia)",
+          13
+        ],
+        [
+          "Brain - Substantia nigra",
+          13
+        ],
+        [
+          "Brain - Hypothalamus",
+          11
+        ],
+        [
+          "Brain - Anterior cingulate cortex (BA24)",
+          10
+        ],
+        [
+          "Brain - Amygdala",
+          10
+        ],
+        [
+          "Cervix - Endocervix",
+          10
+        ],
+        [
+          "Cervix - Ectocervix",
+          9
+        ],
+        [
+          "Fallopian Tube",
+          9
+        ],
+        [
+          "Brain - Spinal cord (cervical c-1)",
+          7
+        ],
+        [
+          "Kidney - Medulla",
+          4
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 54,
+      "md5": "1d8c84285e"
+    }
+  ],
+  "matrixArrType": "Uint32",
+  "labelField": "SMTS",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "pca",
+      "md5": "1df7dd8079",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "t-SNE",
+      "md5": "6e6ca122cd",
+      "minX": 0,
+      "maxX": 65534,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_2",
+      "shortLabel": "UMAP",
+      "md5": "5477e7b3b7",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "Adipose Tissue": [
+      "EHD2",
+      "PLXND1",
+      "LAMC1",
+      "PPARG",
+      "TGFBR2"
+    ],
+    "Adrenal Gland": [
+      "SLC8B1",
+      "AKR1B1",
+      "GNPTG",
+      "C2CD2",
+      "PLBD2"
+    ],
+    "Bladder": [
+      "FOXF1",
+      "KIF7",
+      "CTD-3157E16.2",
+      "FBXL12",
+      "HOXA10"
+    ],
+    "Blood": [
+      "RAC2",
+      "LAPTM5",
+      "LCP1",
+      "SASH3",
+      "FERMT3"
+    ],
+    "Blood Vessel": [
+      "FAM127C",
+      "DBNDD2",
+      "IGFBP7",
+      "MRVI1",
+      "RUSC2"
+    ],
+    "Brain": [
+      "LINC01158",
+      "C1orf61",
+      "BCAN",
+      "POU3F3",
+      "CTNND2"
+    ],
+    "Breast": [
+      "PKN3",
+      "TSPAN14",
+      "BCAR3",
+      "CXorf36",
+      "LEPROT"
+    ],
+    "Cervix Uteri": [
+      "PTBP1",
+      "OTUB1",
+      "SF3B3",
+      "TRAF3IP2",
+      "GOLGA2"
+    ],
+    "Colon": [
+      "HEPH",
+      "HOXA3",
+      "WNK2",
+      "HOXA11-AS",
+      "TSPAN15"
+    ],
+    "Esophagus": [
+      "TUBB6",
+      "TRIOBP",
+      "DAAM1",
+      "TPD52L2",
+      "FAM46B"
+    ],
+    "Fallopian Tube": [
+      "BTF3L4",
+      "EXOSC2",
+      "NAB2",
+      "CCDC97",
+      "EVA1C"
+    ],
+    "Heart": [
+      "TNNT2",
+      "FABP3",
+      "MT-ATP6",
+      "SLC4A3",
+      "NKX2-5"
+    ],
+    "Kidney": [
+      "SULT1C2",
+      "OGDHL",
+      "CDH16",
+      "HPN",
+      "FXYD2"
+    ],
+    "Liver": [
+      "ASGR1",
+      "HPN",
+      "SERPINF2",
+      "RP11-116D2.1",
+      "MASP2"
+    ],
+    "Lung": [
+      "TRPV2",
+      "ADGRF5",
+      "CD4",
+      "TAGLN2",
+      "PLXND1"
+    ],
+    "Muscle": [
+      "MACROD1",
+      "VDAC1",
+      "EEF1A2",
+      "DCAF6",
+      "POLDIP2"
+    ],
+    "Nerve": [
+      "ADD1",
+      "VIM",
+      "EBF2",
+      "EXOSC10",
+      "SORBS3"
+    ],
+    "Ovary": [
+      "RAB34",
+      "GNB5",
+      "CNRIP1",
+      "TTC28",
+      "ZFPM2"
+    ],
+    "Pancreas": [
+      "SLC38A5",
+      "CTRB1",
+      "CPA2",
+      "SPINK1",
+      "TMEM52"
+    ],
+    "Pituitary": [
+      "B9D1",
+      "ATAT1",
+      "UCHL1",
+      "BEX2",
+      "SNRPN"
+    ],
+    "Prostate": [
+      "HOXA13",
+      "RPS4Y1",
+      "HOXA10",
+      "EBF4",
+      "NXN"
+    ],
+    "Salivary Gland": [
+      "EHF",
+      "OTX1",
+      "RP11-532F12.5",
+      "TPD52L1",
+      "SPINT2"
+    ],
+    "Skin": [
+      "CD44",
+      "RIN1",
+      "TMED3",
+      "SLC35F2",
+      "EGFR"
+    ],
+    "Small Intestine": [
+      "HOXB7",
+      "HOXB5",
+      "TMEM176B",
+      "HOXB6",
+      "HOXA9"
+    ],
+    "Spleen": [
+      "VAV1",
+      "MFNG",
+      "PSMB8",
+      "ARHGAP25",
+      "NCKAP1L"
+    ],
+    "Stomach": [
+      "GALNT12",
+      "TMEM51",
+      "RP11-834C11.4",
+      "MECOM",
+      "MICALL1"
+    ],
+    "Testis": [
+      "PAQR7",
+      "NR6A1",
+      "MED25",
+      "IFI27L1",
+      "RNF157"
+    ],
+    "Thyroid": [
+      "ESAM",
+      "PAX8",
+      "DUOXA1",
+      "IQCA1",
+      "ANKS6"
+    ],
+    "Uterus": [
+      "RBFOX2",
+      "TTC28",
+      "MANBAL",
+      "STAT5B",
+      "EMX2"
+    ],
+    "Vagina": [
+      "NXN",
+      "PIAS3",
+      "SLC25A43",
+      "SYPL1",
+      "RAB5B"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenes": [
+    [
+      "EHD2",
+      "Adipose Tissue"
+    ],
+    [
+      "SLC8B1",
+      "Adrenal Gland"
+    ],
+    [
+      "FOXF1",
+      "Bladder"
+    ],
+    [
+      "RAC2",
+      "Blood"
+    ],
+    [
+      "FAM127C",
+      "Blood Vessel"
+    ],
+    [
+      "LINC01158",
+      "Brain"
+    ],
+    [
+      "PKN3",
+      "Breast"
+    ],
+    [
+      "PTBP1",
+      "Cervix Uteri"
+    ],
+    [
+      "HEPH",
+      "Colon"
+    ],
+    [
+      "TUBB6",
+      "Esophagus"
+    ],
+    [
+      "BTF3L4",
+      "Fallopian Tube"
+    ],
+    [
+      "TNNT2",
+      "Heart"
+    ],
+    [
+      "SULT1C2",
+      "Kidney"
+    ],
+    [
+      "ASGR1",
+      "Liver"
+    ],
+    [
+      "TRPV2",
+      "Lung"
+    ],
+    [
+      "MACROD1",
+      "Muscle"
+    ],
+    [
+      "ADD1",
+      "Nerve"
+    ],
+    [
+      "RAB34",
+      "Ovary"
+    ],
+    [
+      "SLC38A5",
+      "Pancreas"
+    ],
+    [
+      "B9D1",
+      "Pituitary"
+    ],
+    [
+      "HOXA13",
+      "Prostate"
+    ],
+    [
+      "EHF",
+      "Salivary Gland"
+    ],
+    [
+      "CD44",
+      "Skin"
+    ],
+    [
+      "HOXB7",
+      "Small Intestine"
+    ],
+    [
+      "VAV1",
+      "Spleen"
+    ],
+    [
+      "GALNT12",
+      "Stomach"
+    ],
+    [
+      "PAQR7",
+      "Testis"
+    ],
+    [
+      "ESAM",
+      "Thyroid"
+    ],
+    [
+      "RBFOX2",
+      "Uterus"
+    ],
+    [
+      "NXN",
+      "Vagina"
+    ]
+  ],
+  "name": "GTEX",
+  "shortLabel": "GTEX",
+  "defColorField": "SMTS",
+  "md5": "28acc45a31"
+}

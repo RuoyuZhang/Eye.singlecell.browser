@@ -1,0 +1,34 @@
+{
+  "name": "GTEX",
+  "shortLabel": "GTEX",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "defColorField": "SMTS",
+  "labelField": "SMTS",
+  "enumFields": [
+    "SMTS"
+  ],
+  "coords": [
+    {
+      "file": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/GTEXImportScanpy/pca_coords.tsv",
+      "shortLabel": "pca"
+    },
+    {
+      "file": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/GTEXImportScanpy/tsne_coords.tsv",
+      "shortLabel": "t-SNE"
+    },
+    {
+      "file": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/GTEXImportScanpy/umap_coords.tsv",
+      "shortLabel": "UMAP"
+    }
+  ],
+  "markers": [
+    {
+      "file": "/home/ruoyu.zhang/project/marker/eye/scEiaD/analysis/cellbrowser/GTEXImportScanpy/markers.tsv",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenesFile": "quickGenes.tsv",
+  "inDir": ""
+}
